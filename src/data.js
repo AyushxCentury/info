@@ -10,7 +10,7 @@ export const profile = {
   location: 'Hyderabad, India',
   github: 'https://github.com/AyushxCentury',
   linkedin: 'https://www.linkedin.com/in/ayush-sahu-136446255/',
-  resume: '/Ayush_Sahu_Resume.pdf',
+  resume: `${import.meta.env.BASE_URL}Ayush_Sahu_Resume.pdf`,
 }
 
 export const education = [
